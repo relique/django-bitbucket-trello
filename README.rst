@@ -46,14 +46,14 @@ Then just copy the code below into your settings file and make sure that you cha
     STAGING_BRANCH = 'master'
 
     # Trello authorization.
-    TRELLO_TOKEN = '407b6d302c149af0f247850582a814853c2baf4dbd190bc4458cab5f68e4f25b'
+    TRELLO_TOKEN = '407b6d302c149af0f247850582a63463dbaf4dbd190bc4458cab5f68e4f25b'
 
-    TRELLO_KEY = '7eec0a9c1bc1f9caedf5de55c7e414df'
+    TRELLO_KEY = '7eec0a9c1bc1f78dq6df5de55c7e414df'
 
     # Trello settings.
-    PRODUCTION_LIST_ID = '57b4347044f96a061626eb55'
+    PRODUCTION_LIST_ID = '57b4347044f46a061626eb55'
 
-    STAGING_LIST_ID = '57b4346f602c04c635ebe0ds'
+    STAGING_LIST_ID = '57b4346f602c21c635ebe0ds'
 
     CARD_POSITION_UPON_MOVING = 'top'  # 'top', 'bottom' or a positive integer
 
