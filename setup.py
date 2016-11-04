@@ -13,7 +13,7 @@ setup(
     version='0.0.4',
     description='Django Bitbucket & Trello Integration',
     long_description=long_description,
-    url='https://github.com/pythonista8/django-bitbucket-trello',
+    url='https://github.com/relique/django-bitbucket-trello',
     author='Aldash Biibosunov',
     author_email='pythonista8@gmail.com',
     license='MIT',
