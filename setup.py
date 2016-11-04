@@ -10,7 +10,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='django-bitbucket-trello',
-    version='0.0.5',
+    version='0.0.6',
     description='Django Bitbucket & Trello Integration',
     long_description=long_description,
     url='https://github.com/relique/django-bitbucket-trello',
