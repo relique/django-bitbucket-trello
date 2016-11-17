@@ -29,6 +29,8 @@ I assume that you already have an app server, Bitbucket repository for your proj
 
 Once you acquire a token and an app key, think of a flow that you will have, meaning properly naming branches and Trello lists. As for us, our staging branch is called master, which is the latest but unstable, and our production branch is called production, which might be the latest but it’s stable. Our Trello list are as follows: To Do -> Doing -> Testing -> Done.
 
+You may also visit <http://www.trello.org/help.html> for more information.
+
 
 Installation
 ~~~~~~~~~~~~
@@ -51,6 +53,8 @@ Then just copy the code below into your settings file and make sure that you cha
     TRELLO_KEY = '7eec0a9c1bc1f78dq6df5de55c7e414df'
 
     # Trello settings.
+    BOARD_ID = '58255f33bb08fbfc0bebf473'
+
     PRODUCTION_LIST_ID = '57b4347044f46a061626eb55'
 
     STAGING_LIST_ID = '57b4346f602c21c635ebe0ds'
