@@ -56,7 +56,8 @@ def _get_card(card_ref):
 
     # Now find the card that has a number match.
     for card in r['cards']:
-        if card['idShort'] == int(card_ref):
+        if str(card['idBoard']) == settings.BOARD_ID and \
+                card['idShort'] == int(card_ref):
             return card
 
 
